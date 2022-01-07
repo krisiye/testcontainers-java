@@ -1,13 +1,13 @@
 package org.testcontainers.consul;
 
-import com.github.dockerjava.api.model.ContainerNetwork;
-import org.testcontainers.containers.Network;
-import com.google.common.collect.ImmutableList;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
+
+import org.testcontainers.containers.Network;
+
+import com.github.dockerjava.api.model.ContainerNetwork;
 
 public class ConsulCluster {
 

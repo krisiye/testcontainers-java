@@ -4,7 +4,12 @@ import java.util.HashMap;
 
 public class ConsulContainerOptions extends HashMap<ConsulContainerOptions.ConsulContainerOption, String> {
 
-    public static final String LOCAL_CONFIG_PARAM_NAME = "CONSUL_LOCAL_CONFIG";
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -6592755469152473887L;
+	
+	public static final String LOCAL_CONFIG_PARAM_NAME = "CONSUL_LOCAL_CONFIG";
 
     public enum ConsulContainerOption {
         BIND_INTERFACE("CONSUL_BIND_INTERFACE", "eth0"),
