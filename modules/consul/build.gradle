@@ -1,0 +1,12 @@
+description = "Testcontainers :: Consul"
+
+dependencies {
+    api project(':testcontainers')
+
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'com.ecwid.consul:consul-api:1.4.2'
+    compileOnly 'org.projectlombok:lombok:1.18.4'
+    
+    testImplementation 'ch.qos.logback:logback-classic:1.2.10'
+    testImplementation 'junit:junit:4.12'
+}
